@@ -37,3 +37,7 @@
 <br>
 上方为ghproxy加速下载，如失败，请使用[国内网盘](https://www.123pan.com/s/eNgKVv-drlm) 提取码：`plus`
 下载
+下载完毕后，安装就不必我多说了吧~
+
+#安装主题
+安装好Gridea后，到这个页面中的[`releases`](https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases) 下载或者[`使用ghproxy加速`](https://ghproxy.com/https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases/)
