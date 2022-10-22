@@ -5,7 +5,7 @@
 [![Live2D 看板娘](https://img.shields.io/badge/Live2D-看板娘-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
 [English readme](./README_en.md)<br>
-基于Bitch Pro的自改主题 原作者为 [`Yuxiang Qiu`](https://github.com/yuxqiu) 原作品链接：<https://github.com/yuxqiu/bitcron-pro>
+基于Bitcron Pro的自改主题 原作者为 [`Yuxiang Qiu`](https://github.com/yuxqiu) 原作品链接：<https://github.com/yuxqiu/bitcron-pro>
 <br>
 **未经作者授权，如侵即删**
 <br>
