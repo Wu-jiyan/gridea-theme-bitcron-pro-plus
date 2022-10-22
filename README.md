@@ -27,6 +27,7 @@
 
 ***
 # 如何使用
+## 下载Gridea
 首先，你肯定得有 [`Gridea`](https://gridea.dev/) 客户端<br>
 **什么，你说你没有？（震惊**<br>(PS:如果已经好了请跳转到[安装主题](#安装主题))
 那就让我们先下载吧~（是不是变成Gridea使用教程了~）<br>
@@ -39,5 +40,8 @@
 下载
 下载完毕后，安装就不必我多说了吧~
 
-#安装主题
-安装好Gridea后，到这个页面中的[`releases`](https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases) 下载或者[`使用ghproxy加速`](https://ghproxy.com/https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases/)
+## 安装主题
+安装好Gridea后，到这个页面中的[`releases`](https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases) 下载最新版本或者[`使用ghproxy加速`](https://ghproxy.com/https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases/)
+<br>
+接着把该压缩包`解压`到`C:\Users\%username%\Document\Gridea\themes`（默认文件夹）或者你在Gridea里自定义的文件夹路径
+![image](https://user-images.githubusercontent.com/107091865/197366234-bd63971a-65b6-40ab-8c4f-f5baea4f0b1b.png)
