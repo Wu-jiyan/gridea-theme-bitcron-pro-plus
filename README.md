@@ -30,7 +30,7 @@
 首先，你肯定得有 [`Gridea`](https://gridea.dev/) 客户端<br>
 **什么，你说你没有？（震惊**<br>
 那就让我们先下载吧~（是不是变成Gridea使用教程了~）<br>
-[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/macOS.png" alt="macOS" width="18%">](https://download.fastgit.org/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.dmg "使用了fastgit加速")
-[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Windows.png" alt="Windows" width="19.7%">](https://download.fastgit.org/getgridea/gridea/releases/download/v0.9.3/Gridea.Setup.0.9.3.exe "使用了fastgit加速")
-[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-AppImage.png" alt="Linux-AppImage" width="29.7%">](https://download.fastgit.org/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage "使用了fastgit加速")
-[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-Snap.png" alt="Linux-Snap" width="23%">](https://download.fastgit.org/getgridea/gridea/releases/download/v0.9.3/gridea_0.9.3_amd64.snap "使用了fastgit加速")
+[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/macOS.png" alt="macOS" width="18%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.dmg "使用了ghproxy加速")
+[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Windows.png" alt="Windows" width="19.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea.Setup.0.9.3.exe"使用了ghproxy加速")
+[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-AppImage.png" alt="Linux-AppImage" width="29.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage "使用了ghproxy加速")
+[<img src="https://fastly.jsdelivr.net/gh/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-Snap.png" alt="Linux-Snap" width="23%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/gridea_0.9.3_amd64.snap"使用了ghproxy加速")
