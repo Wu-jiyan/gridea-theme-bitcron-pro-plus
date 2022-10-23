@@ -8,12 +8,12 @@
 [![Live2D Widget](https://img.shields.io/badge/Live2D-Widget-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
 [中文版](./README.md)<br>
-The original author of the self-modified theme based on Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to the original work:<https://github.com/yuxqiu/bitcron-pro>
+The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to the Bitcron Pro:<https://github.com/yuxqiu/bitcron-pro>
 <br>
 **Delete without the authorization of the author**
 <br>
 ***
-## Features of the original work:
+## Features of Bitcron Pro:
 1. Picture enlargement<br>
 2. Reading time and word count of articles<br>
 3. Toc directory support<br>
@@ -56,3 +56,5 @@ In Gridea, select a `Bitcron Pro Plus` theme<br>
 ![image](https://user-images.githubusercontent.com/107091865/197372719-e43e033b-f492-4ce2-92e2-ffc1bcc87a76.png)
 <br>
 ** Well, that"s all for the tutorial, and let"s start a fun blog trip. **
+<br>
+(PS: If you like this theme, please give me a star~)
