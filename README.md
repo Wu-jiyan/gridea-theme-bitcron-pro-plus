@@ -24,7 +24,14 @@
 11、代码高亮<br>
 12、添加图片简介<br>
 ……
-
+## Plus 版新增：
+1.Valine评论系统<br>
+2.Live2D看板娘
+3.APlayer音乐播放器
+4.友链
+5.网页弹窗
+6.更多自定义
+……
 ***
 # 如何使用
 ## 下载Gridea
@@ -43,5 +50,10 @@
 ## 安装主题
 安装好Gridea后，到这个页面中的[`releases`](https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases) 下载最新版本或者[`使用ghproxy加速`](https://ghproxy.com/https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases/)
 <br>
-接着把该压缩包`解压`到`C:\Users\%username%\Document\Gridea\themes`（默认文件夹）或者你在Gridea里自定义的文件夹路径
+接着把该压缩包`解压`到`C:\Users\%username%\Document\Gridea\themes`（默认文件夹）或者你在Gridea里自定义的文件夹路径<br>
 ![image](https://user-images.githubusercontent.com/107091865/197366234-bd63971a-65b6-40ab-8c4f-f5baea4f0b1b.png)
+<br>
+在Gridea中，选择`Bitcron Pro Plus`主题<br>
+![image](https://user-images.githubusercontent.com/107091865/197372668-c16f4ae3-11c0-41f1-b836-aaf87ffdb8a6.png)
+** 好了，教程就到这里，开始愉快的博客之旅吧~ **
+
