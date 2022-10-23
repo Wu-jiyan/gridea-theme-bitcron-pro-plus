@@ -26,11 +26,12 @@
 ……
 ## Plus 版新增：
 1.Valine评论系统<br>
-2.Live2D看板娘
-3.APlayer音乐播放器
-4.友链
-5.网页弹窗
-6.更多自定义
+2.Live2D看板娘<br>
+3.APlayer音乐播放器<br>
+4.友链<br>
+5.网页弹窗<br>
+6.更多自定义<br>
+7.关于<br>
 ……
 ***
 # 如何使用
@@ -54,6 +55,6 @@
 ![image](https://user-images.githubusercontent.com/107091865/197366234-bd63971a-65b6-40ab-8c4f-f5baea4f0b1b.png)
 <br>
 在Gridea中，选择`Bitcron Pro Plus`主题<br>
-![image](https://user-images.githubusercontent.com/107091865/197372668-c16f4ae3-11c0-41f1-b836-aaf87ffdb8a6.png)
-** 好了，教程就到这里，开始愉快的博客之旅吧~ **
-
+![image](https://user-images.githubusercontent.com/107091865/197372719-e43e033b-f492-4ce2-92e2-ffc1bcc87a76.png)
+<br>
+ **好了，教程就到这里，开始愉快的博客之旅吧~** 
