@@ -8,7 +8,7 @@
 [![Live2D Widget](https://img.shields.io/badge/Live2D-Widget-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
 [中文版](./README.md)<br>
-The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to the Bitcron Pro:<https://github.com/yuxqiu/bitcron-pro>
+The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to Bitcron Pro: <https://github.com/yuxqiu/bitcron-pro>
 <br>
 **Delete without the authorization of the author**
 <br>
@@ -40,9 +40,13 @@ The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu
 # How to use
 ## Download Gridea
 First, you must have the [ `Gridea`](https://gridea.dev/) client<br>
-** What, you said you didn"t? (shocked **<br>(PS: If it is ready, please jump to it[Installation Topics](#Install-the-theme))
+ **What, you said you didn"t? (shocked** <br>
+ (PS: If you've done this, please jump to [Installation Topics](./#install-the-theme) )
 Let"s download it first.<br>
-[<img src="https://github.com/Wu-jiyan/gridea-theme-bitch-pro-plus/image/macOS.png" alt="macOS" width="18%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.dmg "Ghproxy acceleration is used")[<img src="https://github.com/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Windows.png" alt="Windows" width="19.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea.Setup.0.9.3.exe "Ghproxy acceleration is used")[<img src="https://github.com/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-AppImage.png" alt="Linux-AppImage" width="29.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage "Ghproxy acceleration is used")[<img src="https://github.com/Wu-jiyan/gridea-theme-bitch-pro-plus/image/Linux-Snap.png" alt="Linux-Snap" width="23%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/gridea_0.9.3_amd64.snap "Ghproxy acceleration is used")
+[<img src="./image/macOS.png" alt="macOS" width="18%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.dmg "Ghproxy acceleration is used")
+[<img src="./image/Windows.png" alt="Windows" width="19.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea.Setup.0.9.3.exe "Ghproxy acceleration is used")
+[<img src="./image/Linux-AppImage.png" alt="Linux-AppImage" width="29.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage "Ghproxy acceleration is used")
+[<img src="./image/Linux-Snap.png" alt="Linux-Snap" width="23%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/gridea_0.9.3_amd64.snap "Ghproxy acceleration is used")
 <br>
 The above is ghproxy accelerated download. If it fails, please use the[ Chinese storage ](https://www.123pan.com/s/eNgKVv-drlm) extraction code: `plus` After the download is completed, the installation does not need me to say more.
 
