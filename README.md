@@ -60,4 +60,5 @@
 在Gridea中，选择`Bitcron Pro Plus`主题<br>
 ![image](https://user-images.githubusercontent.com/107091865/197372719-e43e033b-f492-4ce2-92e2-ffc1bcc87a76.png)
 <br>
- **好了，教程就到这里，开始愉快的博客之旅吧~** 
+ **好了，教程就到这里，开始愉快的博客之旅吧~** <br>
+ (PS: 如果你觉得好用请务必给个star支持下~)
