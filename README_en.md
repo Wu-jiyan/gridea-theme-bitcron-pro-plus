@@ -54,10 +54,10 @@ The above is ghproxy accelerated download. If it fails, please use the[ Chinese 
 After installing Gridea, go to [ `releases`](https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases) on this page to download the latest version or [ `use Ghproxy acceleration`](https://ghproxy.com/https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/releases/)
 <br>
 Then add the archive `unzip` to `C:\Users\%username%\Document\Gridea\themes` (the default folder) or to a folder you have customized in Gridea<br>
-![image](https://user-images.githubusercontent.com/107091865/197366234-bd63971a-65b6-40ab-8c4f-f5baea4f0b1b.png)
+![image](https://user-images.githubusercontent.com/107091865/197385637-e653b39d-e2fd-45eb-b4ef-85b9742cea94.png)
 <br>
 In Gridea, select a `Bitcron Pro Plus` theme<br>
-![image](https://user-images.githubusercontent.com/107091865/197372719-e43e033b-f492-4ce2-92e2-ffc1bcc87a76.png)
+![image](https://user-images.githubusercontent.com/107091865/197385664-33f517d7-0995-4443-84b8-edf454f33d4c.png)
 <br>
 ** Well, that"s all for the tutorial, and let"s start a fun blog trip. **
 <br>
