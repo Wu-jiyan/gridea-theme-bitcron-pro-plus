@@ -1,6 +1,6 @@
 # Gridea 主题 Bitcron Pro Plus
 ![view 10+](https://img.shields.io/badge/view-10+-grey.svg)
-![star 3](https://img.shields.io/badge/star-3-yellowgreen.svg)
+![star 13](https://img.shields.io/badge/star-13-yellowgreen.svg)
 ![fork 0](https://img.shields.io/badge/fork-0-grey.svg)
 [![Gridea 9.0+](https://img.shields.io/badge/Gridea-9.0+-yellow.svg)](https://gridea.dev "Gridea")
 [![Valine 评论](https://img.shields.io/badge/Valine-评论-blue.svg)](https://valine.js.org/ "Valine")
