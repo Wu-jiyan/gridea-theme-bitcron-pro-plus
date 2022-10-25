@@ -1,0 +1,15 @@
+<!--评论显示区，请插入合适的位置-->
+<div id="comment"></div>
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el:'#comment',
+        appId: '<%=site.customConfig['appId']%>',
+        appKey: '<%=site.customConfig['appKey']%>',
+        placeholder: '<%=site.customConfig['placeholder']%>',
+        avatar:''
+    });
+</script>

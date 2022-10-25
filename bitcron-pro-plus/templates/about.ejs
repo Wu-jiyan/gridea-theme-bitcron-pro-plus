@@ -1,0 +1,36 @@
+<html lang="zh">
+<head>
+    <%- include('./_blocks/head', { siteTitle: `关于 - ${themeConfig.siteName}` }) %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <%- include('./_blocks/header') %>
+    <div class="post-container">
+        <div class="post-detail">
+            <article class="gt-post-content">
+                <div class="post-content">
+                    <%- site.customConfig.about %>
+                </div>
+            </article>
+        </div>
+        <br>
+        <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+            <% if (commentSetting.commentPlatform === 'gitalk') { %>
+                <%- include('./_blocks/gitalk') %>
+            <% } %>
+            <% if (commentSetting.commentPlatform === 'disqus') { %>
+                <%- include('./_blocks/disqus') %>
+            <% } %>
+        <% } %>
+
+        <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
+            <%- include('./_blocks/valine') %>
+        <% } %>
+
+
+        <%- include('./_blocks/footer') %>
+    </div>
+</div>
+</body>
+</html>
