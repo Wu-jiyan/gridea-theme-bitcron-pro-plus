@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%- include('./_blocks/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %>
+<link rel="canonical" href="<%= post.link %>" />
+</head>
+<body>
+<%- include('./_blocks/header') %>
+<div class="main"><div class="main-inner"><div class="content">
+<article class="post">
+<h2 class="post_title sm_margin"><a><%= post.title %></a></h2>
+<script>function lan(){if(document.getElementById("lan").innerText=="繁"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_tw.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="简"}else{if(document.getElementById("lan").innerText=="簡"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_cn.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="繁"}}};</script>
+<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px"> <%= post.dateFormat %></span><i class="iconfont icon-browse"></i><span style="margin-right:15px"> <span id="busuanzi_value_page_pv"></span> Views</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px"><% post.tags.forEach(function(tag, index) { %>	<a href="<%= tag.link %>" class="tag"><%= tag.name %></a><% if (index !== post.tags.length - 1) { %> | <% } %><%});%></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px"><%= post.stats.words %>字</span><i class="iconfont icon-naozhong"></i><span style="margin-right:15px"><%= post.stats.text %></span><a id="lan" href="javascript:void(0);"onclick="lan();"title="调整简繁体" style="margin-right:15px;">繁</a>
+<%if(post.isTop){ %><font color=7D26CD>置顶</font><%}%></section>
+<% if (themeConfig.showFeatureImage && post.feature) { %>
+<img class="featureImg" alt="featureimg" src="<%= post.feature %>" referrerpolicy="no-referrer">
+<% } %>
+<div style="display:flex">
+<div class="md_block" id="md_block">
+<div class="round-shape-one"></div>
+<%- post.content %>
+<span id="footnote"></span>
+<div id = "warn"></div>
+</div>
+<div class="toc-container"><%- post.toc %></div>
+</div>
+<div id="fullPage"><canvas id="canvas"></canvas></div>
+</article>
+<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
+<section>
+<div class="doc_comments">
+<% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+	  <% if (commentSetting.commentPlatform === 'gitalk') { %>
+		<div id="gitalk-container"></div>
+		<%- include('./_blocks/gitalk') %>
+	  <% } %>
+		  
+	  <% if (commentSetting.commentPlatform === 'disqus') { %>
+		<%- include('./_blocks/disqus') %>
+	  <% } %>
+
+            <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
+                <%- include('./_blocks/valine') %>
+            <% } %>
+
+<% } %>
+</div></section>
+</div></div></div><script>
+"use strict";!function(){for(var n=document.getElementsByTagName("pre"),e=n.length,s=0;s<e;s++){n[s].innerHTML='<span class="line-number"></span>'+n[s].innerHTML+'<span class="cl"></span>';for(var a=n[s].innerHTML.split(/\n/).length,r=0;r<a-1;r++){n[s].getElementsByTagName("span")[0].innerHTML+="<span>"+(r+1)+"</span>"}}}();
+let mainNavLinks=document.querySelectorAll(".markdownIt-TOC a");window.addEventListener("scroll",event=>{let fromTop=window.scrollY;mainNavLinks.forEach((link,index)=>{let section=document.getElementById(decodeURI(link.hash).substring(1));let nextSection=null
+if(mainNavLinks[index+1]){nextSection=document.getElementById(decodeURI(mainNavLinks[index+1].hash).substring(1));}
+if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop){link.classList.add("currentToc");}else{link.classList.remove("currentToc");}}else{link.classList.add("currentToc");}}else{link.classList.remove("currentToc");}});});
+var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
+var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
+</script>
+<%- include('./_blocks/footer') %>
+<script type="text/javascript" async src="<%= themeConfig.domain %>/media/js/prism.js"></script>
+</body>
+</html>

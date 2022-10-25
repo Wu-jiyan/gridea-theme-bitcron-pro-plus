@@ -1,0 +1,24 @@
+<% if (site.customConfig.Aplayer){ %>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<div id="aplayer" class="aplayer" data-autoplay="<%= site.customConfig.Playauto %>"  data-id="<%= site.customConfig.Playid %>" data-server="<%= site.customConfig.Playfrom %>" data-type="<%= site.customConfig.Playtype %>" data-fixed="true" data-listfolded="true" data-order="<%= site.customConfig.Playmode %>" data-theme="#F58EA8"></div>
+<script src="https://unpkg.com/meting@1.2.0/dist/Meting.min.js"></script>
+<% } %>
+
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"><%['telegram','twitter','weibo','github','envelope','rss','zhihu'].forEach((item)=>{%><%if(site.customConfig[item]){%><a href="<%= site.customConfig[item] %>"title="<%= item %>"><i class="iconfont icon-<%= item %>"></i></a><%}%><%})%></div></div><div class="copyright"id="copyright"><%-themeConfig.footerInfo%>Copyright © <a href="<%= themeConfig.domain %>" style="margin:0;"><%= themeConfig.siteName %></a>.</div>
+<span style="display: inline;margin-right:15px;">👁<strong><span id="busuanzi_value_site_pv"></span></strong></span>
+<span style="display: inline;margin-right:15px;">👤<strong><span id="busuanzi_value_site_uv"></span></strong></span>
+<span>📚<strong><%=site.posts.length%></strong> posts</span>
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+
+<% if (site.customConfig.Sweetalert) { %>
+	<script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script>
+	swal({
+	  icon: "<%= site.customConfig.alerticon %>",
+	  title: "<%= site.customConfig.alerttitle %>",
+	  text: "<%= site.customConfig.alerttext %>",
+	});
+	</script>
+<% } %>

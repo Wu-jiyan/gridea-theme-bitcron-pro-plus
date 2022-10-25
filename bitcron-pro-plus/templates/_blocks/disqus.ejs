@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://vu.qnid.cc/index.php?q=aHR0cHM6Ly91bnBrZy5jb20vZGlzcXVzanNAMS4xL2Rpc3QvZGlzcXVzanMuY3Nz">
+<script src="https://vu.qnid.cc/index.php?q=aHR0cHM6Ly91bnBrZy5jb20vZGlzcXVzanNAMS4xL2Rpc3QvZGlzcXVzLmpz"></script>
+
+<div id="disqus_thread"></div>
+
+<script>
+
+var options = {
+  shortname: '<%= commentSetting.disqusSetting.shortname %>',
+  apikey: '<%= commentSetting.disqusSetting.apikey %>',
+}
+if ('<%= commentSetting.disqusSetting.api %>') {
+  options.api = '<%= commentSetting.disqusSetting.api %>'
+}
+var dsqjs = new DisqusJS(options)
+
+</script>

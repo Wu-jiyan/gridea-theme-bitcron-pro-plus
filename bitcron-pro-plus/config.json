@@ -1,0 +1,361 @@
+{
+  "name": "Bitcron Pro Plus",
+  "version": "2.0.1",
+  "author": "Serence, Wu-jiyan",
+  "repository": "https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/",
+  "customConfig": [
+	  {
+      "name": "github",
+      "label": "Github",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "twitter",
+      "label": "Twitter",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "zhihu",
+      "label": "知乎",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "weibo",
+      "label": "微博",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "telegram",
+      "label": "Telegram",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+	{
+      "name": "rss",
+      "label": "Rss",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+	{
+      "name": "envelope",
+      "label": "Mail",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+    	"name": "CustomCSS",
+   	 "label": " 自定义CSS",
+  	  "group": "个性化",
+  	  "value": "",
+  	  "type": "textarea",
+	  "note": "自定义放在<head>标签中的CSS"
+    },
+    {
+      "name": "Santa",
+      "label": " 是否需要圣诞装饰 ",
+      "group": " 特殊功能 ",
+      "value": true,
+      "type": "switch",
+      "note": " 雪花以及圣诞老人效果 "
+    },
+    {
+      "name": "Spring",
+      "label": " 是否需要春节灯笼特效 ",
+      "group": " 特殊功能 ",
+      "value": true,
+      "type": "switch",
+      "note": " 春节灯笼特效 "
+    },
+    {
+    	"name": "Live2D",
+   	 "label": " 是否启用Live2D看板娘",
+  	  "group": " 特殊功能 ",
+  	  "value": true,
+  	  "type": "switch",
+	  "note": "Live2D看板娘特效"
+    },
+
+    {
+      "name": "valine",
+      "label": "Valine评论系统",
+      "group": "Valine评论系统",
+      "type": "switch",
+      "value": false,
+      "note": "启用valine评论系统，需先关闭Gridea自带的评论系统开关。"
+    },
+    {
+      "name": "appId",
+      "label": "APP_ID",
+      "group": "Valine评论系统",
+      "type": "input",
+      "value": "",
+      "note": "从Leancloud上获得的APP_ID"
+    },
+    {
+      "name": "appKey",
+      "label": "APP_KEY",
+      "group": "Valine评论系统",
+      "type": "input",
+      "value": "",
+      "note": "从Leancloud上获得的APP_KEY"
+    },
+    {
+      "name": "placeholder",
+      "label": "占位提示符",
+      "group": "Valine评论系统",
+      "type": "input",
+      "value": "Just Go Go",
+      "note": "评论区占位提示符"
+    },
+
+
+    {
+    	"name": "Aplayer",
+   	 "label": " 是否启用音乐播放器",
+  	  "group": "音乐播放器",
+  	  "value": true,
+  	  "type": "switch",
+	  "note": "网页左下角的音乐播放器APlayer"
+    },
+    {
+    	"name": "Playfrom",
+   	 "label": "播放平台",
+  	  "group": "音乐播放器",
+	  "value": "netease",
+            "type": "select",
+            "options": [
+              {
+                "label": "网易云音乐",
+                "value": "netease"
+              },
+              {
+                "label": "qq音乐",
+                "value": "tencent"
+              },
+              {
+                "label": "虾米音乐",
+                "value": "xiami"
+              },
+              {
+                "label": "酷狗音乐",
+                "value": "kugou"
+              },
+              {
+                "label": "百度音乐",
+                "value": "baidu"
+              }
+            ],
+
+	  "note": "播放器的音乐平台，支持大多平台"
+    },
+    {
+    	"name": "Playtype",
+   	 "label": "播放类型",
+  	  "group": "音乐播放器",
+	  "value": "song",
+            "type": "select",
+            "options": [
+              {
+                "label": "单曲",
+                "value": "song"
+              },
+              {
+                "label": "专辑",
+                "value": "album"
+              },
+              {
+                "label": "歌单",
+                "value": "playlist"
+              },
+              {
+                "label": "搜索",
+                "value": "search"
+              }
+            ],
+
+	  "note": "播放器的播放类型"
+    },
+    {
+      "name": "Playid",
+      "label": "播放id",
+      "group": "音乐播放器",
+      "value": "",
+      "type": "input",
+      "note": "就是音乐网址链接?后的数字，如：5208409284"
+    },
+    {
+    	"name": "Playmode",
+   	 "label": "播放模式",
+  	  "group": "音乐播放器",
+	  "value": "random",
+            "type": "select",
+            "options": [
+              {
+                "label": "随机",
+                "value": "random"
+              },
+              {
+                "label": "单曲",
+                "value": "single"
+              },
+              {
+                "label": "列表循环",
+                "value": "curculation"
+              },
+              {
+                "label": "列表",
+                "value": "order"
+              }
+            ],
+
+	  "note": "播放顺序"
+    },
+    {
+    	"name": "Playauto",
+   	 "label": "自动播放",
+  	  "group": "音乐播放器",
+	  "value": "true",
+            "type": "select",
+            "options": [
+              {
+                "label": "开启",
+                "value": "true"
+              },
+              {
+                "label": "关闭",
+                "value": "false"
+              }
+            ],
+
+	  "note": "是否自动播放"
+    },
+
+    {
+    	  "name": "Sweetalert",
+   	  "label": " 是否启用网页弹窗",
+  	  "group": "网页弹窗",
+  	  "value": true,
+  	  "type": "switch",
+	  "note": "网页加载完成后的弹窗"
+    },
+    {
+    	"name": "alerticon",
+   	 "label": "弹窗图标",
+  	  "group": "网页弹窗",
+	  "value": "info",
+            "type": "select",
+            "options": [
+              {
+                "label": "无",
+                "value": "info"
+              },
+              {
+                "label": "成功",
+                "value": "success"
+              },
+              {
+                "label": "错误",
+                "value": "error"
+              },
+              {
+                "label": "警告",
+                "value": "warning"
+              }
+            ],
+
+	  "note": "弹窗最上方的图标"
+    },
+    {
+      "name": "alerttitle",
+      "label": "弹窗标题",
+      "group": "网页弹窗",
+      "type": "input",
+      "value": "弹窗",
+      "note": "弹窗的标题"
+    },
+    {
+      "name": "alerttext",
+      "label": "弹窗内容",
+      "group": "网页弹窗",
+      "type": "textarea",
+      "value": "欢迎来到我的博客~",
+      "note": "弹窗的内容"
+    },
+
+    {
+      "name": "imguploud",
+      "label": "图床",
+      "group": "图床",
+      "type": "array",
+      "value": [],
+      "arrayItems": [
+        { "label": "请上传", "name": "uploadimg", "type": "picture-upload", "value": "" }
+      ],
+      "note": "测试中，暂未实现"
+    },
+    {
+      "name": "friends",
+      "label": "友链",
+      "group": "友链",
+      "type": "array",
+      "value": [],
+      "arrayItems": [
+        { "label": "名称", "name": "siteName", "type": "input", "value": "" },
+        { "label": "链接", "name": "siteLink", "type": "input", "value": "" },
+        { "label": "Logo", "name": "siteLogo", "type": "input", "value": "" },
+        { "label": "描述", "name": "description", "type": "textarea", "value": "" }
+      ],
+      "note": ""
+    },
+    {
+      "name": "frienddesc",
+      "label": "页面描述",
+      "group": "友链",
+      "type": "markdown",
+      "value": "",
+      "note": "友链页面的描述信息（Markdown 格式）"
+    },
+    {
+      "name": "about",
+      "label": "关于",
+      "group": "关于",
+      "type": "markdown",
+      "value": "",
+      "note": "关于页面的内容（Markdown 格式）"
+    },
+	{
+		"name": "ga",
+		"label": "跟踪 ID",
+		"group": "谷歌统计",
+		"value": "",
+		"type": "input",
+		"note": "UA-xxxxxxxxx-x"
+	},
+	{
+		"name": "gasense",
+		"label": "Google Adsense <head>代码",
+		"group": "谷歌统计",
+		"value": "",
+		"type": "textarea",
+		"note": "<script XX=XXX>XXXXX</script>"
+	}
+  ]
+}

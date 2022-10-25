@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <%- include('./_blocks/head', { siteTitle:` 友情链接 | ${themeConfig.siteName}` }) %>
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <%- include('./_blocks/header') %>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">友情链接</h2>
+
+            <div class="post-content" v-pre>
+              <div class="post-content yue flex flex-wrap">
+          
+                <% if (site.customConfig.friends) { %>
+                  <% site.customConfig.friends.forEach(function(friend) { %>
+		
+
+                    <div class="friend-box">
+<br><br>
+                      <img class="friend-avatar" src="<%= friend.siteLogo %>">
+                      <div class="flink-info">
+                        <a href="<%= friend.siteLink %>" target="_blank" style='color:#000;border-bottom: 1px dotted #000;'><%= friend.siteName %></a>
+                        <br/>
+                        <%= friend.description %>
+                      </div>
+                    </div>
+                  <% }); %>
+      
+                  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+                  <script>
+                    // 这里注入了一个Fisher–Yates Shuffle算法用来洗牌
+                    jQuery.prototype.shuffle = function() {
+                      var res = this;
+                      for (var i = res.length - 1; i >= 0; i--) {
+                        var rnd = Math.floor(Math.random() * (i + 1));
+                        var ind = res[rnd];
+      
+                        res[rnd] = res[i];
+                        res[i] = ind;
+                      }
+                      return res;
+                    }
+                    // 打乱一下顺序
+                    var items = $(".friend-box").shuffle();
+                    $(".post-content").empty().append(items);
+                </script>
+                <% } %>
+      
+              </div>
+            </div>
+            
+            
+
+            <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+              <% if (commentSetting.commentPlatform === 'gitalk') { %>
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              <% } %>
+
+              <% if (commentSetting.commentPlatform === 'disqus') { %>
+                <div id="disqus_thread" data-aos="fade-in"></div>
+              <% } %>
+            <% } %>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <%- include('./_blocks/footer') %>
+  </body>
+</html>
