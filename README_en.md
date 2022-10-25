@@ -10,7 +10,7 @@
 [中文版](./README.md)<br>
 The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to Bitcron Pro: <https://github.com/yuxqiu/bitcron-pro>
 <br>
-**Delete without the authorization of the author**
+**Made without the authorization of the author**
 <br>
 ***
 ## Features of Bitcron Pro:
@@ -59,6 +59,6 @@ Then add the archive `unzip` to `C:\Users\%username%\Document\Gridea\themes` (th
 In Gridea, select a `Bitcron Pro Plus` theme<br>
 ![image](https://user-images.githubusercontent.com/107091865/197385664-33f517d7-0995-4443-84b8-edf454f33d4c.png)
 <br>
-** Well, that"s all for the tutorial, and let"s start a fun blog trip. **
+**Well, that"s all for the tutorial, and let"s start a fun blog trip. **
 <br>
 (PS: If you like this theme, please give me a star~)
