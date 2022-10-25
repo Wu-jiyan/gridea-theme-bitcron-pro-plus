@@ -41,7 +41,7 @@ The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu
 ## Download Gridea
 First, you must have the [ `Gridea`](https://gridea.dev/) client<br>
  **What, you said you didn"t? (shocked** <br>
- (PS: If you've done this, please jump to [Installation Topics](./#install-the-theme) )
+ (PS: If you've done this, please jump to [Installation Topics](#install-the-theme) )
 Let"s download it first.<br>
 [<img src="./image/macOS.png" alt="macOS" width="18%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.dmg "Ghproxy acceleration is used")
 [<img src="./image/Windows.png" alt="Windows" width="19.7%">](https://ghproxy.com/https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea.Setup.0.9.3.exe "Ghproxy acceleration is used")
