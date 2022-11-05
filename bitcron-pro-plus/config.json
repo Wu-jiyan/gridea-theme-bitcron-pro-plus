@@ -1,6 +1,6 @@
 {
   "name": "Bitcron Pro Plus",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Serence, Wu-jiyan",
   "repository": "https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/",
   "customConfig": [
@@ -121,6 +121,39 @@
       "name": "placeholder",
       "label": "占位提示符",
       "group": "Valine评论系统",
+      "type": "input",
+      "value": "Just Go Go",
+      "note": "评论区占位提示符"
+    },
+
+    {
+      "name": "waline",
+      "label": "Waline评论系统",
+      "group": "Waline评论系统",
+      "type": "switch",
+      "value": false,
+      "note": "启用waline评论系统，需先关闭Gridea自带的评论系统开关。"
+    },
+    {
+      "name": "wappId",
+      "label": "APP_ID",
+      "group": "Waline评论系统",
+      "type": "input",
+      "value": "",
+      "note": "从Leancloud上获得的APP_ID"
+    },
+    {
+      "name": "wappKey",
+      "label": "APP_KEY",
+      "group": "Waline评论系统",
+      "type": "input",
+      "value": "",
+      "note": "从Leancloud上获得的APP_KEY"
+    },
+    {
+      "name": "wplaceholder",
+      "label": "占位提示符",
+      "group": "Waline评论系统",
       "type": "input",
       "value": "Just Go Go",
       "note": "评论区占位提示符"
@@ -249,9 +282,9 @@
     },
 
     {
-    	  "name": "Sweetalert",
+    	  "name": "sweetalert",
    	  "label": " 是否启用网页弹窗",
-  	  "group": "网页弹窗",
+  	  "group": " 网页弹窗 ",
   	  "value": true,
   	  "type": "switch",
 	  "note": "网页加载完成后的弹窗"
@@ -259,12 +292,12 @@
     {
     	"name": "alerticon",
    	 "label": "弹窗图标",
-  	  "group": "网页弹窗",
+  	  "group": " 网页弹窗 ",
 	  "value": "info",
             "type": "select",
             "options": [
               {
-                "label": "无",
+                "label": "默认",
                 "value": "info"
               },
               {
@@ -278,6 +311,10 @@
               {
                 "label": "警告",
                 "value": "warning"
+              },
+              {
+                "label": "无",
+                "value": " "
               }
             ],
 
@@ -286,7 +323,7 @@
     {
       "name": "alerttitle",
       "label": "弹窗标题",
-      "group": "网页弹窗",
+      "group": " 网页弹窗 ",
       "type": "input",
       "value": "弹窗",
       "note": "弹窗的标题"
@@ -294,22 +331,10 @@
     {
       "name": "alerttext",
       "label": "弹窗内容",
-      "group": "网页弹窗",
+      "group": " 网页弹窗 ",
       "type": "textarea",
-      "value": "欢迎来到我的博客~",
+      "value": "欢迎来到我的博客",
       "note": "弹窗的内容"
-    },
-
-    {
-      "name": "imguploud",
-      "label": "图床",
-      "group": "图床",
-      "type": "array",
-      "value": [],
-      "arrayItems": [
-        { "label": "请上传", "name": "uploadimg", "type": "picture-upload", "value": "" }
-      ],
-      "note": "测试中，暂未实现"
     },
     {
       "name": "friends",

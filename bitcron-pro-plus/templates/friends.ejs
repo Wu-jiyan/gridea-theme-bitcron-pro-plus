@@ -1,77 +1,63 @@
-<!DOCTYPE html>
 <html>
-  <head>
- <%- include('./_blocks/head', { siteTitle:` 友情链接 | ${themeConfig.siteName}` }) %>
-  </head>
-  <body>
-    <div id="app" class="main">
 
-      <%- include('./_blocks/header') %>
+<head>
+    <%- include('./_blocks/head', { siteTitle: `友情链接 - ${themeConfig.siteName}` }) %>
+</head>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">友情链接</h2>
+<body>
+<div class="main gt-bg-theme-color-first">
+        <div class="main-content">
+            <%- include('./_blocks/header') %>
+            <div class="friend-container">
+                <div class="friend-detail">
+                    <article>
 
-            <div class="post-content" v-pre>
-              <div class="post-content yue flex flex-wrap">
-          
-                <% if (site.customConfig.friends) { %>
-                  <% site.customConfig.friends.forEach(function(friend) { %>
-		
-
-                    <div class="friend-box">
-<br><br>
-                      <img class="friend-avatar" src="<%= friend.siteLogo %>">
-                      <div class="flink-info">
-                        <a href="<%= friend.siteLink %>" target="_blank" style='color:#000;border-bottom: 1px dotted #000;'><%= friend.siteName %></a>
-                        <br/>
-                        <%= friend.description %>
-                      </div>
-                    </div>
-                  <% }); %>
-      
-                  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-                  <script>
-                    // 这里注入了一个Fisher–Yates Shuffle算法用来洗牌
-                    jQuery.prototype.shuffle = function() {
-                      var res = this;
-                      for (var i = res.length - 1; i >= 0; i--) {
-                        var rnd = Math.floor(Math.random() * (i + 1));
-                        var ind = res[rnd];
-      
-                        res[rnd] = res[i];
-                        res[i] = ind;
-                      }
-                      return res;
-                    }
-                    // 打乱一下顺序
-                    var items = $(".friend-box").shuffle();
-                    $(".post-content").empty().append(items);
-                </script>
+                        <!-- <div class="post-content-wrapper"> -->
+                            <div class="post-content">
+                                <div class="friends-desc">
+                                    <%- site.customConfig.frienddesc %>
+                                </div>
+                                <!-- <h3 id="linklist">友链列表</h3> -->
+                                <% if (site.customConfig.friends) { %>
+                                    <% site.customConfig.friends.forEach(function(friend) { %>
+                                        <div class="friend-box">
+                                            <img class="friend-avatar" src="<%= friend.siteLogo %>">
+                                            <div class="flink-info">
+                                                <% if(friend.siteLink == "/friendssq") { %>
+                                                    <a class="selected active current nav__item link-instanted" href="<%= friend.siteLink %>" target="_Self"><%= friend.siteName %></a>
+                                                    <% } else { %>
+                                                        <a class="selected active current nav__item link-instanted" href="<%= friend.siteLink %>" target="_blank"><%= friend.siteName %></a>
+                                                        <% } %>
+                                                <br />
+                                                <div class="selected active current nav__item link-instanted">
+                                                    <%= friend.description %>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <% }); %>
+                                <% } else { %>
+                                    暂无友链，快来申请吧！
+                                <% } %>
+                            </div>
+                        <!-- </div> -->
+                    </article>
+                </div>
+                <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+                    <% if (commentSetting.commentPlatform === 'gitalk') { %>
+                        <%- include('./_blocks/gitalk') %>
+                    <% } %>
+                    <% if (commentSetting.commentPlatform === 'disqus') { %>
+                        <%- include('./_blocks/disqus') %>
+                    <% } %>
                 <% } %>
-      
-              </div>
+                        <%- include('./_blocks/valine') %>
             </div>
-            
-            
 
-            <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
-              <% if (commentSetting.commentPlatform === 'gitalk') { %>
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              <% } %>
 
-              <% if (commentSetting.commentPlatform === 'disqus') { %>
-                <div id="disqus_thread" data-aos="fade-in"></div>
-              <% } %>
-            <% } %>
 
-          </div>
-
+            <%- include('./_blocks/footer') %>
         </div>
-      </div>
     </div>
+</body>
 
-    <%- include('./_blocks/footer') %>
-  </body>
 </html>

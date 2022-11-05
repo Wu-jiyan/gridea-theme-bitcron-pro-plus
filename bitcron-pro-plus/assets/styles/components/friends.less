@@ -1,0 +1,62 @@
+.friend-box {
+    float: left;
+    max-width: 25pc;
+    min-width: 25pc;
+    margin: 15px 10px;
+    background-color: rgba(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+
+    img.friend-avatar{
+        width: 70px;
+        height: 70px;
+        border-radius: 50% !important;
+        float: left;
+        margin:0 15px 0 0 !important;
+    }
+
+    .flink-info{
+        height: 70px;
+        overflow: hidden;
+        line-height: 24px;
+        padding-left: 30px;
+        font-size: 14px;
+
+        a {
+            font-size: 18px;
+			margin-bottom: 10px;
+        }
+        .flink-info-desc {
+            margin-top: 10px;
+        }
+    }
+}
+
+.friend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  flex: auto;
+
+  .friend-detail {
+    flex: auto;
+    padding: 24px 32px;
+    width: 1000px;
+    border-radius: 4px;
+	}
+}
+
+@media (max-width: 993px) {
+    .friend-box {
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width: 465px) {
+    .flink-info-desc {
+        display: none;
+    }
+}
+

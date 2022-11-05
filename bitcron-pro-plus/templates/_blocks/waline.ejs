@@ -1,0 +1,37 @@
+<script>
+    function loadComments() {
+        if (typeof Waline === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js',
+                onload: () => {
+                    newWaline();
+                }
+            });
+        } else {
+            newWaline();
+        }
+    }
+    function newWaline() {
+        new Waline({
+            el: '#waline',
+            serverURL: '{{ .Site.Params.walineServerURL }}',
+            placeholder: '{{ .Site.Params.walinePlaceholder }}',
+            avatar: '{{ .Site.Params.walineAvatar }}',
+            meta: {{ .Site.Params.walineMeta }},
+            pageSize: {{ .Site.Params.walinePageSize }},
+            lang: '{{ .Site.Params.walineLang }}',
+            highlight: {{ .Site.Params.walineHighlight }},
+            avatarCDN: '{{ .Site.Params.walineAvatarCDN }}',
+            requiredFields: {{ .Site.Params.walineRequiredFields }}
+        });
+    }
+</script>
