@@ -1,13 +1,13 @@
 # Gridea 主题 Bitcron Pro Plus
-![view 10+](https://img.shields.io/badge/view-10+-grey.svg)
-![star 13](https://img.shields.io/badge/star-13-yellowgreen.svg)
+![view 100+](https://img.shields.io/badge/view-10+-grey.svg)
+![star 29](https://img.shields.io/badge/star-13-yellowgreen.svg)
 ![fork 0](https://img.shields.io/badge/fork-0-grey.svg)
 [![Gridea 9.0+](https://img.shields.io/badge/Gridea-9.0+-yellow.svg)](https://gridea.dev "Gridea")
 [![Valine 评论](https://img.shields.io/badge/Valine-评论-blue.svg)](https://valine.js.org/ "Valine")
 [![Aplayer 播放器](https://img.shields.io/badge/Aplayer-音乐-lightyellow.svg)](https://aplayer.js.org/ "Aplayer")
 [![Live2D 看板娘](https://img.shields.io/badge/Live2D-看板娘-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
-[English readme](./README_en.md)<br>
+[English readme](./README_en.md)<br> | [演示](https://bitcron.cf/)
 基于Bitcron Pro的自改主题 原作者为 [`Yuxiang Qiu`](https://github.com/yuxqiu) 原作品链接：<https://github.com/yuxqiu/bitcron-pro>
 <br>
 **未经作者授权，如侵即删**
@@ -35,6 +35,8 @@
 5.网页弹窗<br>
 6.更多自定义<br>
 7.关于<br>
+8.版权信息<br>
+9.更好的暗黑模式<br>
 ……
 ***
 # 如何使用
@@ -62,3 +64,11 @@
 <br>
  **好了，教程就到这里，开始愉快的博客之旅吧~** <br>
  (PS: 如果你觉得好用请务必给个star支持下~)
+
+## 使用截图
+![首页-明亮](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d9e82.png)
+![首页-暗黑](https://image.wujiyan.tk/img/1/2022-11-06/6367b56658f5f.png)
+![文章-明亮](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d932f.png)
+![文章-暗黑](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d16aa.png)
+![评论-明亮](https://image.wujiyan.tk/img/0/2022-11-06/6367b3971b721.png)
+![评论-暗黑](https://image.wujiyan.tk/img/0/2022-11-06/6367b397234c7.png)
