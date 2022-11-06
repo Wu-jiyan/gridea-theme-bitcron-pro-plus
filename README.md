@@ -7,7 +7,7 @@
 [![Aplayer 播放器](https://img.shields.io/badge/Aplayer-音乐-lightyellow.svg)](https://aplayer.js.org/ "Aplayer")
 [![Live2D 看板娘](https://img.shields.io/badge/Live2D-看板娘-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
-[English readme](./README_en.md)<br> | [演示](https://bitcron.cf/)
+[English readme](./README_en.md) | [演示](https://bitcron.cf/) <br>
 基于Bitcron Pro的自改主题 原作者为 [`Yuxiang Qiu`](https://github.com/yuxqiu) 原作品链接：<https://github.com/yuxqiu/bitcron-pro>
 <br>
 **未经作者授权，如侵即删**
