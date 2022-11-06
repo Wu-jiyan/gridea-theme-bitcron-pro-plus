@@ -1,13 +1,13 @@
 ﻿# Gridea Theme Bitcron Pro Plus
-![view 10+](https://img.shields.io/badge/view-10+-green.svg)
-![star 13](https://img.shields.io/badge/star-13-yellowgreen.svg)
+![view 100+](https://img.shields.io/badge/view-10+-green.svg)
+![star 29](https://img.shields.io/badge/star-13-yellowgreen.svg)
 ![fork 0](https://img.shields.io/badge/fork-0-grey.svg)
 [![ Gridea 9.0+ ](https://img.shields.io/badge/Gridea-9.0+-yellow.svg)](https://gridea.dev "Gridea")
 [![Valine Comment system](https://img.shields.io/badge/Valine-Comment%20system-blue.svg)](https://valine.js.org/ "Valine")
 [![Aplayer Music](https://img.shields.io/badge/Aplayer-Music-lightyellow.svg)](https://aplayer.js.org/ "Aplayer")
 [![Live2D Widget](https://img.shields.io/badge/Live2D-Widget-orange.svg)](https://github.com/stevenjoezhang/live2d-widget "Live2D-widget")
 <br>
-[中文版](./README.md)<br>
+[中文版](./README.md) | [DEMO](https://bitcron.cf/)<br>
 The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu) Link to Bitcron Pro: <https://github.com/yuxqiu/bitcron-pro>
 <br>
 **Made without the authorization of the author**
@@ -35,6 +35,8 @@ The original author of Bitcron Pro is [ `Yuxiang Qiu`](https://github.com/yuxqiu
 5.Web Pop-up<br>
 6.More customization<br>
 7.About<br>
+8.CopyRight Information<br>
+9.Better dark mode<br>
 ...
 ***
 # How to use
@@ -62,3 +64,11 @@ In Gridea, select a `Bitcron Pro Plus` theme<br>
 **Well, that"s all for the tutorial, and let"s start a fun blog trip. **
 <br>
 (PS: If you like this theme, please give me a star~)
+
+## Screenshots
+![Home-light](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d9e82.png)
+![Home-dark](https://image.wujiyan.tk/img/1/2022-11-06/6367b56658f5f.png)
+![Post-light](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d932f.png)
+![Post-dark](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d16aa.png)
+![Comment-light](https://image.wujiyan.tk/img/0/2022-11-06/6367b3971b721.png)
+![Comment-Dark](https://image.wujiyan.tk/img/0/2022-11-06/6367b397234c7.png)
