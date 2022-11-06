@@ -66,6 +66,7 @@
  (PS: 如果你觉得好用请务必给个star支持下~)
 
 ## 使用截图
+![设置界面](https://image.wujiyan.tk/img/1/2022-11-06/6367bb1b0a9a4.png)
 ![首页-明亮](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d9e82.png)
 ![首页-暗黑](https://image.wujiyan.tk/img/1/2022-11-06/6367b56658f5f.png)
 ![文章-明亮](https://image.wujiyan.tk/img/0/2022-11-06/6367b395d932f.png)
