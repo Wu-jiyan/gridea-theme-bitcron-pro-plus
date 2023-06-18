@@ -1,6 +1,6 @@
 ﻿# Gridea Theme Bitcron Pro Plus
-![view 100+](https://img.shields.io/badge/view-10+-green.svg)
-![star 29](https://img.shields.io/badge/star-13-yellowgreen.svg)
+![view 100+](https://img.shields.io/badge/view-100+-green.svg)
+![star 30](https://img.shields.io/badge/star-30-yellowgreen.svg)
 ![fork 0](https://img.shields.io/badge/fork-0-grey.svg)
 [![ Gridea 9.0+ ](https://img.shields.io/badge/Gridea-9.0+-yellow.svg)](https://gridea.dev "Gridea")
 [![Valine Comment system](https://img.shields.io/badge/Valine-Comment%20system-blue.svg)](https://valine.js.org/ "Valine")
