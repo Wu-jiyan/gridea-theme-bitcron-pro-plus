@@ -1,6 +1,6 @@
 {
   "name": "Bitcron Pro Plus",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Serence, Wu-jiyan",
   "repository": "https://github.com/Wu-jiyan/gridea-theme-bitcron-pro-plus/",
   "customConfig": [
@@ -69,6 +69,23 @@
 	  "note": "自定义放在<head>标签中的CSS"
     },
     {
+    	"name": "RoundShapeOne",
+   	 "label": " 是否启用round shape one",
+  	  "group": "个性化",
+  	  "value": true,
+  	  "type": "switch",
+	  "note": "就那个转来转去的空心小圆（雾）"
+    },
+    {
+    	"name": "EOFvalue",
+   	 "label": "文末结语",
+  	  "group": "个性化",
+  	  "value": "EOF",
+  	  "type": "input",
+	  "note": "就那个红色的End Of File，可修改为任意文字"
+    },
+
+    {
       "name": "Santa",
       "label": " 是否需要圣诞装饰 ",
       "group": " 特殊功能 ",
@@ -125,40 +142,14 @@
       "value": "Just Go Go",
       "note": "评论区占位提示符"
     },
-
     {
-      "name": "waline",
-      "label": "Waline评论系统",
-      "group": "Waline评论系统",
-      "type": "switch",
-      "value": false,
-      "note": "启用waline评论系统，需先关闭Gridea自带的评论系统开关。"
-    },
-    {
-      "name": "wappId",
-      "label": "APP_ID",
-      "group": "Waline评论系统",
-      "type": "input",
+      "name": "CustomBG",
+     "label": " 评论框背景图片",
+      "group": "Valine评论系统",
       "value": "",
-      "note": "从Leancloud上获得的APP_ID"
-    },
-    {
-      "name": "wappKey",
-      "label": "APP_KEY",
-      "group": "Waline评论系统",
       "type": "input",
-      "value": "",
-      "note": "从Leancloud上获得的APP_KEY"
+    "note": "自定义评论框背景图片"
     },
-    {
-      "name": "wplaceholder",
-      "label": "占位提示符",
-      "group": "Waline评论系统",
-      "type": "input",
-      "value": "Just Go Go",
-      "note": "评论区占位提示符"
-    },
-
 
     {
     	"name": "Aplayer",
@@ -282,6 +273,15 @@
     },
 
     {
+    	  "name": "CopyrightInform",
+   	  "label": " 是否启用复制版权",
+  	  "group": "版权信息",
+  	  "value": true,
+  	  "type": "switch",
+	  "note": "复制内容后添加的版权信息，暂不支持修改"
+    },
+
+    {
     	  "name": "sweetalert",
    	  "label": " 是否启用网页弹窗",
   	  "group": " 网页弹窗 ",
@@ -366,6 +366,8 @@
       "value": "",
       "note": "关于页面的内容（Markdown 格式）"
     },
+
+
 	{
 		"name": "ga",
 		"label": "跟踪 ID",
