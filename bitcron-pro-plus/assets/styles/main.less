@@ -890,6 +890,18 @@ pre .cl {
     width: 38px;
     height: 38px
 }
+/*背景图输入判断*/
+#veditor:focus {
+    background-position-y: 200px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.vpower.txt-right {
+  display: none;
+}
+img.vimg:hover {
+  transform: rotateZ(360deg);/*图像旋转360度*/
+  transition: all 1.5s ease-in-out;/*给所有规定以慢速开始和结束的过渡效果1.5s*/
+}
 
 @import './components/darkmode';
 @import './components/toc';

@@ -4,33 +4,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
 </head>
 <body>
-<div class="main gt-bg-theme-color-first">
-    <%- include('./_blocks/header') %>
-    <div class="post-container">
-        <div class="post-detail">
-            <article class="gt-post-content">
-                <div class="post-content">
-                    <%- site.customConfig.about %>
-                </div>
-            </article>
-        </div>
-        <br>
-        <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
-            <% if (commentSetting.commentPlatform === 'gitalk') { %>
-                <%- include('./_blocks/gitalk') %>
-            <% } %>
-            <% if (commentSetting.commentPlatform === 'disqus') { %>
-                <%- include('./_blocks/disqus') %>
-            <% } %>
-        <% } %>
-
-        <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
-            <%- include('./_blocks/valine') %>
-        <% } %>
-
-
-        <%- include('./_blocks/footer') %>
-    </div>
+<%- include('./_blocks/header') %>
+<div class="main"><div class="main-inner"><div class="content">
+<div style="display:flex">
+<div class="md_block" id="md_block">
+<% if (site.customConfig.RoundShapeOne){ %>
+<div class="round-shape-one"></div>
+<% } %>
+<%- site.customConfig.about %>
+<span id="footnote"></span>
+<div id = "warn"></div>
 </div>
+<div class="toc-container"></div>
+</div>
+<div id="fullPage"><canvas id="canvas"></canvas></div>
+</article>
+<div id="eof"><span><%= site.customConfig.EOFvalue %></span></div>
+<% if (site.customConfig.RoundShapeOne){ %>
+<div class="round-shape-one"></div>
+<% } %>
+<section>
+<div class="doc_comments">
+<% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+	  <% if (commentSetting.commentPlatform === 'gitalk') { %>
+		<div id="gitalk-container"></div>
+		<%- include('./_blocks/gitalk') %>
+	  <% } %>
+		  
+	  <% if (commentSetting.commentPlatform === 'disqus') { %>
+		<%- include('./_blocks/disqus') %>
+	  <% } %>
+
+            <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
+                <%- include('./_blocks/valine') %>
+            <% } %>
+
+<% } %>
+
+
+</div></section>
+</div></div></div>
+<%- include('./_blocks/footer') %>
 </body>
 </html>

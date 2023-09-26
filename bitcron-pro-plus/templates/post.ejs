@@ -17,7 +17,9 @@
 <% } %>
 <div style="display:flex">
 <div class="md_block" id="md_block">
+<% if (site.customConfig.RoundShapeOne){ %>
 <div class="round-shape-one"></div>
+<% } %>
 <%- post.content %>
 <span id="footnote"></span>
 <div id = "warn"></div>
@@ -26,7 +28,10 @@
 </div>
 <div id="fullPage"><canvas id="canvas"></canvas></div>
 </article>
-<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
+<div id="eof"><span><%= site.customConfig.EOFvalue %></span></div>
+<% if (site.customConfig.RoundShapeOne){ %>
+<div class="round-shape-one"></div>
+<% } %>
 <section>
 <div class="doc_comments">
 <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
@@ -38,7 +43,7 @@
 	  <% if (commentSetting.commentPlatform === 'disqus') { %>
 		<%- include('./_blocks/disqus') %>
 	  <% } %>
-
+<% } else { %>
             <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
                 <%- include('./_blocks/valine') %>
             <% } %>

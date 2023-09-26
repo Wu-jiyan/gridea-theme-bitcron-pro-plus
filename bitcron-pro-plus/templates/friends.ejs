@@ -14,9 +14,8 @@
 
                         <!-- <div class="post-content-wrapper"> -->
                             <div class="post-content">
-                                <div class="friends-desc">
-                                    <%- site.customConfig.frienddesc %>
-                                </div>
+                                <!-- <div class="friends-desc"> -->
+                                <!-- </div> -->
                                 <!-- <h3 id="linklist">友链列表</h3> -->
                                 <% if (site.customConfig.friends) { %>
                                     <% site.customConfig.friends.forEach(function(friend) { %>
@@ -42,20 +41,50 @@
                         <!-- </div> -->
                     </article>
                 </div>
-                <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
-                    <% if (commentSetting.commentPlatform === 'gitalk') { %>
-                        <%- include('./_blocks/gitalk') %>
-                    <% } %>
-                    <% if (commentSetting.commentPlatform === 'disqus') { %>
-                        <%- include('./_blocks/disqus') %>
-                    <% } %>
-                <% } %>
-                        <%- include('./_blocks/valine') %>
-            </div>
+          <div class="main"><div class="main-inner"><div class="content">
+	<article class="post">
+	<div style="display:flex">
+	<div class="md_block" id="md_block">
+	<% if (site.customConfig.RoundShapeOne){ %>
+	<div class="round-shape-one"></div>
+	<% } %>
+	 <%- site.customConfig.frienddesc %>
+	<span id="footnote"></span>
+	<div id = "warn"></div>
+	</div>
+	<div class="toc-container"></div>
+	</div>
+	<div id="fullPage"><canvas id="canvas"></canvas></div>
+	</article>
+	<div id="eof"><span><%= site.customConfig.EOFvalue %></span></div>
+	<% if (site.customConfig.RoundShapeOne){ %>
+	<div class="round-shape-one"></div>
+	<% } %>
 
+	<section>
+	<div class="doc_comments">
+	<% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+	  	<% if (commentSetting.commentPlatform === 'gitalk') { %>
+			<div id="gitalk-container"></div>
+			<%- include('./_blocks/gitalk') %>
+	  	<% } %>
+		  
+	  	<% if (commentSetting.commentPlatform === 'disqus') { %>
+			<%- include('./_blocks/disqus') %>
+		  <% } %>
+    <% } else { %>
+      		  <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
+       		      <%- include('./_blocks/valine') %>
+            	<% } %>
+
+	<% } %>
+	</div></section>
+            </div></div></div>
+	</div>
 
 
             <%- include('./_blocks/footer') %>
+	<script type="text/javascript" async src="<%= themeConfig.domain %>/media/js/prism.js"></script>
         </div>
     </div>
 </body>
