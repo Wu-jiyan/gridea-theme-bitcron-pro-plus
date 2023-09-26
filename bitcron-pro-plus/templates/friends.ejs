@@ -14,8 +14,8 @@
 
                         <!-- <div class="post-content-wrapper"> -->
                             <div class="post-content">
-                                <div class="friends-desc">
-                                </div>
+                                <!-- <div class="friends-desc"> -->
+                                <!-- </div> -->
                                 <!-- <h3 id="linklist">友链列表</h3> -->
                                 <% if (site.customConfig.friends) { %>
                                     <% site.customConfig.friends.forEach(function(friend) { %>
@@ -72,7 +72,7 @@
 	  	<% if (commentSetting.commentPlatform === 'disqus') { %>
 			<%- include('./_blocks/disqus') %>
 		  <% } %>
-
+    <% } else { %>
       		  <% if(typeof site.customConfig['valine']!=='undefined' && site.customConfig['valine']) { %>
        		      <%- include('./_blocks/valine') %>
             	<% } %>
